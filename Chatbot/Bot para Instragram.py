@@ -29,7 +29,7 @@ class Instagram:
             username.clear()
             username.send_keys('python_overview')
             password.clear()
-            password.send_keys('1424738wsE')
+            password.send_keys('##########') # senha do instagram, escreva aqui
             btn_login = self.driver.find_element_by_css_selector('#loginForm > div > div:nth-child(3) > button > div')
             btn_login.click()
 
